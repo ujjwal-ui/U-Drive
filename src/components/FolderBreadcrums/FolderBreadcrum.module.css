@@ -1,0 +1,24 @@
+
+.FolderBreadcrums {
+    margin-left: 30px;
+    color: white;
+}
+
+.FolderBreadcrums a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 180px;
+    padding: 10px;
+    color: white;
+}
+
+.FolderBreadcrums a:hover{
+    color: olivedrab;
+}
+
+.currentFolder {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}

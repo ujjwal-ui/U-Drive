@@ -1,0 +1,27 @@
+.Nav {
+    margin: 0;
+    padding: 17px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav span {
+    margin-left: 10px;
+}
+
+.Nav div p {
+    margin: 0;
+    margin-right: 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.Nav div p:hover {
+    color: orange;
+    cursor: pointer;
+}

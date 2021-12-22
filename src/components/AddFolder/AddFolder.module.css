@@ -1,0 +1,43 @@
+.AddFolder {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 200;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AddFolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddFolder input {
+    /* border: none; */
+    margin: 4px;
+    padding: 3px 10px;
+}
+
+.AddFolder button {
+    margin-left: 4px;
+    border: none;
+    padding: 4px 12px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+}
+
+.AddFolder p {
+    color: red;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 17px;
+}
+
+.AddFolder button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

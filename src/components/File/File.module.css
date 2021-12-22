@@ -1,0 +1,22 @@
+.File {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: transparent;
+    text-decoration: none;
+    color: aquamarine;
+    border: 1px solid white;
+    font-weight: 500;
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.File:hover {
+    background-color: black;
+    color: aquamarine;
+}

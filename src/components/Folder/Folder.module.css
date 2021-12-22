@@ -1,0 +1,33 @@
+.Folder {
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 7px;
+    margin-left: 4px;
+    max-width: 160px;
+}
+
+.Folder a {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    background-color: #A12568;
+    min-width: 100px;
+    min-height: 100px;
+    color: white;
+    padding: 6px;
+    border-radius: 8px;
+    font-weight: 550;
+}
+
+.Folder a:hover {
+    background-color: #ccc;
+    color: black;
+    box-shadow: 1px 2px 3px #f6f6f6;
+}
+
+.Folder a img {
+    width: 15px;
+    margin-right: 8px;
+}

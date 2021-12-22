@@ -1,0 +1,55 @@
+.addFile {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 200;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.addFile input {
+    display: none;   
+}
+
+.addFile label {
+    color: #fff;
+    font-weight: 500;
+    margin: 5px;
+    background-color: olivedrab;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.addFile label:hover {
+    background-color: rgba(0 ,0 ,0, 0.5);
+}
+
+.addFile button {
+    margin: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 10px;
+    border: none;
+}
+
+.addFile button:hover {
+    background-color: rgba(0 ,0 ,0, 0.5);
+}
+
+.addFile .Filename {
+    color: #000;
+    font-size: 12px;
+}
+
+.addFile .Message {
+    font-weight: 600;
+    color: red;
+    margin: 0;
+}

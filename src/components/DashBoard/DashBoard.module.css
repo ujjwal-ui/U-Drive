@@ -1,0 +1,31 @@
+.DashBoard {
+    width: 100%;
+    height: 100%;
+}
+
+.DashBoard button {
+    margin-top: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.folderArea {
+    margin-top: 10px;
+}
+
+
+.folderArea .ChildFolders {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.folderButtonsContainer {
+    display: flex;
+    justify-content: end;    
+}
+
+.folderButtonsContainer button img {
+    width: 22px;
+}
